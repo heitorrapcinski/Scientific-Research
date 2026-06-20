@@ -134,13 +134,26 @@ Sugere-se um **quase-experimento comparativo** combinado a **estudo de caso múl
 
 A avaliação do artefato segue critérios de DSR (utilidade, eficácia, fidelidade ao ambiente) ([Artifact Evaluation in IS DSR](https://aisel.aisnet.org/pacis2014/23/)).
 
-### 5.4 Proposições testáveis (o que precisa ser experimentado)
+### 5.4 O que precisa ser experimentado (proposições testáveis)
 
-- **P1.** O HIC reduz lead time e aumenta frequência de deploy frente à equipe tradicional (elimina atrito inter-silos). *[quanti — DORA]*
-- **P2.** Sem governança (condição B), o HIC eleva *change failure rate* e a incidência de violações de SoD frente à linha de base. *[misto — DORA + auditoria]*
-- **P3.** O modelo HADS (condição C) recupera os indicadores de segurança/governança da condição A **sem** anular os ganhos de velocidade da condição B. *[misto]*
-- **P4.** A delegação a agentes desloca, mas não elimina, a carga cognitiva — afetando bem-estar (SPACE). *[misto — survey + telemetria]*
-- **P5.** A auditabilidade da fronteira humano–agente é o preditor mais forte de confiança organizacional no HIC. *[quali → quanti]*
+Cada proposição abaixo descreve um experimento concreto: **o que se compara**, **o que se mede** e **qual resultado confirma ou refuta a hipótese**. Juntas, elas decompõem a tese em afirmações falsificáveis — nenhuma precisa ser respondida neste artigo, mas todas precisam ser testadas no estudo futuro.
+
+**P1 — O HIC realmente elimina o atrito inter-silos?** *[quantitativo — DORA]*
+Compara-se a condição A (equipe tradicional) com a B (HIC). Mede-se lead time e frequência de deploy. *Confirma-se se* B apresenta lead time menor e frequência maior que A de forma consistente. É o teste do benefício prometido pelo HIC.
+
+**P2 — Esse ganho vem acompanhado de perda de segurança?** *[misto — DORA + auditoria]*
+Ainda comparando A e B, mede-se *change failure rate* (quanti) e a contagem de violações de separação de funções identificadas em auditoria (quali/contagem). *Confirma-se se* a condição B, apesar de mais rápida, eleva tanto a taxa de falha quanto as violações de SoD frente à linha de base. É o teste de que o colapso dos silos cobra um preço.
+
+**P3 — O artefato HADS resolve o trade-off? (proposição central)** *[misto]*
+Compara-se a condição C (HIC + HADS) com B e A. Verifica-se se C **mantém** os ganhos de velocidade de B (DORA) e, ao mesmo tempo, **recupera** os indicadores de segurança/governança ao nível de A (taxa de falha e violações de SoD). *Confirma-se se* C ≈ B em velocidade **e** C ≈ A em segurança. É o teste da contribuição do estudo: o HADS faz o HIC prosperar sem reintroduzir atrito.
+
+**P4 — A IA elimina ou apenas desloca a carga de trabalho?** *[misto — survey + telemetria]*
+Nas condições B e C, mede-se bem-estar e fluxo pelas dimensões do SPACE (survey) cruzadas com sinais de telemetria (ex.: interrupções, trabalho fora do horário). *Confirma-se se* a delegação aos agentes reduz a carga de execução mas concentra carga de decisão/supervisão no HIC — ou seja, a sobrecarga muda de natureza em vez de desaparecer. Importa para sustentabilidade: um HIC que entrega rápido mas insustentável não "prospera".
+
+**P5 — O que faz a organização confiar no HIC?** *[qualitativo → quantitativo]*
+Primeiro, entrevistas identificam os fatores que geram ou destroem confiança no HIC (fase quali, que define as variáveis). Depois, um survey em escala testa, por regressão, qual fator mais explica o nível de confiança. *Confirma-se se* a auditabilidade da fronteira humano–agente surge como o preditor mais forte — acima de velocidade, custo ou reputação do indivíduo. É o teste de adoção: mostra que o HADS resolve não só o problema técnico, mas o de aceitação organizacional.
+
+**Síntese do desenho.** P1 mede o que o HIC promete; P2 mede o que ele ameaça; P3 testa se o artefato proposto reconcilia os dois; P4 e P5 verificam se o resultado é sustentável (pessoa) e aceito (organização). A confirmação conjunta de P3, P4 e P5 é o que validaria o caminho proposto.
 
 ---
 

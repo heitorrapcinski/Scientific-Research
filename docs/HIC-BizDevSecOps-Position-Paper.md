@@ -1,6 +1,6 @@
 # HADS: separação de funções humano–agente como caminho para o HIC prosperar no BizDevSecOps
 
-### BizDevSecOps na era do HIC: dissolução de silos, concentração de risco e uma agenda de pesquisa
+### High-Impact Individual Contributor: promessa de produtividade, desafio de governança no BizDevSecOps
 
 *Position paper e agenda de pesquisa*
 

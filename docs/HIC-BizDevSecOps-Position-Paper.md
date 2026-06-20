@@ -173,48 +173,48 @@ O HIC não é o fim do BizDevSecOps; é a sua **internalização** numa só pess
 
 **BizDevSecOps / BizDevOps / DevSecOps**
 
-- BizDevOps: Because DevOps is Not the End of the Story — https://www.researchgate.net/publication/300545597_BizDevOps_Because_DevOps_is_Not_the_End_of_the_Story
-- BizDevOps: A Multivocal Literature Review — https://www.researchgate.net/publication/345005095_BizDevOps_A_Multivocal_Literature_Review
-- Towards Agile IT/Business Alignment at BizDevOps (PDF) — https://www.scitepress.org/Papers/2023/119654/119654.pdf
-- Improving IT/Business Alignment in DevOps (Wiley, 2025) — https://onlinelibrary.wiley.com/doi/full/10.1002/smr.70016
-- Identifying the primary dimensions of DevSecOps (JSS, 2024) — https://www.sciencedirect.com/science/article/pii/S0164121224001080
-- Challenges and solutions when adopting DevSecOps (arXiv, 2021) — https://arxiv.org/pdf/2103.08266
-- Evolution of DevSecOps and Its Influence on Application Security (MDPI, 2025) — https://www.mdpi.com/2227-7080/13/12/548
-- Overview of BizDevSecOps (GeeksforGeeks) — https://www.geeksforgeeks.org/software-engineering/overview-of-bizdevsecops/
-- BizDevSecOps use cases for unified observability (Dynatrace) — https://www.dynatrace.com/news/blog/bizdevsecops-use-cases-for-unified-observability/
-- BizDevSecOps (EFS Consulting) — https://efs.consulting/en/businessareas/agility/bizdevsecops/
-- BizDevSecOps: The Developer's Path Forward (DZone) — https://dzone.com/articles/bizdevsecops-the-developers-path-forward-1
+- [BizDevOps: Because DevOps is Not the End of the Story](https://www.researchgate.net/publication/300545597_BizDevOps_Because_DevOps_is_Not_the_End_of_the_Story)
+- [BizDevOps: A Multivocal Literature Review](https://www.researchgate.net/publication/345005095_BizDevOps_A_Multivocal_Literature_Review)
+- [Towards Agile IT/Business Alignment at BizDevOps (PDF)](https://www.scitepress.org/Papers/2023/119654/119654.pdf)
+- [Improving IT/Business Alignment in DevOps (Wiley, 2025)](https://onlinelibrary.wiley.com/doi/full/10.1002/smr.70016)
+- [Identifying the primary dimensions of DevSecOps (JSS, 2024)](https://www.sciencedirect.com/science/article/pii/S0164121224001080)
+- [Challenges and solutions when adopting DevSecOps (arXiv, 2021)](https://arxiv.org/pdf/2103.08266)
+- [Evolution of DevSecOps and Its Influence on Application Security (MDPI, 2025)](https://www.mdpi.com/2227-7080/13/12/548)
+- [Overview of BizDevSecOps (GeeksforGeeks)](https://www.geeksforgeeks.org/software-engineering/overview-of-bizdevsecops/)
+- [BizDevSecOps use cases for unified observability (Dynatrace)](https://www.dynatrace.com/news/blog/bizdevsecops-use-cases-for-unified-observability/)
+- [BizDevSecOps (EFS Consulting)](https://efs.consulting/en/businessareas/agility/bizdevsecops/)
+- [BizDevSecOps: The Developer's Path Forward (DZone)](https://dzone.com/articles/bizdevsecops-the-developers-path-forward-1)
 
 **HIC / Trilha IC / IA agêntica**
 
-- The High Individual Contributor is becoming a new organizational unit (DEV) — https://dev.to/pvgomes/the-high-individual-contributor-is-becoming-a-new-organizational-unit-3ef8
-- Staff Engineer: Leadership beyond the management track (Will Larson) — https://staffeng.com/book/
-- Who are staff, principal, and distinguished engineers? (LeadDev) — https://leaddev.com/career-development/who-are-staff-principal-and-distinguished-engineers
-- HIC: o profissional que chegou ao topo sem virar gerente (StartSe) — https://www.startse.com/artigos/hic-o-profissional-que-chegou-ao-topo-sem-virar-gerente-e-usa-ia-para-se-destacar/
-- IC High-Impact: o caminho técnico para o topo (Inteligência Setorial) — https://inteligenciasetorial.com.br/ic-high-impact-individual-contributor/
-- HI-C na saúde: o departamento de uma pessoa só (Futuro da Saúde) — https://futurodasaude.com.br/hi-c-na-saude-artigo-campolina/
-- Agentic Engineering: redefining software engineering (LangChain) — https://www.langchain.com/blog/agentic-engineering-redefining-software-engineering
-- How AI coding agents are restructuring software teams (InteligenAI) — https://inteligenai.com/how-ai-coding-agents-are-restructuring-software-teams-and-what-the-1979-spreadsheet-can-teach-us/
-- AI is rewiring the software industry by collapsing workflows (Business Standard) — https://www.business-standard.com/technology/tech-news/ai-is-rewiring-the-software-industry-by-collapsing-traditional-workflows-126060700668_1.html
-- Agentic AI impact on software engineering (Deloitte) — https://www.deloitte.com/us/en/services/consulting/articles/agentic-ai-impact-on-software-engineering.html
+- [The High Individual Contributor is becoming a new organizational unit (DEV)](https://dev.to/pvgomes/the-high-individual-contributor-is-becoming-a-new-organizational-unit-3ef8)
+- [Staff Engineer: Leadership beyond the management track (Will Larson)](https://staffeng.com/book/)
+- [Who are staff, principal, and distinguished engineers? (LeadDev)](https://leaddev.com/career-development/who-are-staff-principal-and-distinguished-engineers)
+- [HIC: o profissional que chegou ao topo sem virar gerente (StartSe)](https://www.startse.com/artigos/hic-o-profissional-que-chegou-ao-topo-sem-virar-gerente-e-usa-ia-para-se-destacar/)
+- [IC High-Impact: o caminho técnico para o topo (Inteligência Setorial)](https://inteligenciasetorial.com.br/ic-high-impact-individual-contributor/)
+- [HI-C na saúde: o departamento de uma pessoa só (Futuro da Saúde)](https://futurodasaude.com.br/hi-c-na-saude-artigo-campolina/)
+- [Agentic Engineering: redefining software engineering (LangChain)](https://www.langchain.com/blog/agentic-engineering-redefining-software-engineering)
+- [How AI coding agents are restructuring software teams (InteligenAI)](https://inteligenai.com/how-ai-coding-agents-are-restructuring-software-teams-and-what-the-1979-spreadsheet-can-teach-us/)
+- [AI is rewiring the software industry by collapsing workflows (Business Standard)](https://www.business-standard.com/technology/tech-news/ai-is-rewiring-the-software-industry-by-collapsing-traditional-workflows-126060700668_1.html)
+- [Agentic AI impact on software engineering (Deloitte)](https://www.deloitte.com/us/en/services/consulting/articles/agentic-ai-impact-on-software-engineering.html)
 
 **Separação de funções / governança**
 
-- Does DevSecOps eliminate the segregation of duties? (CSO Online) — https://www.csoonline.com/article/565700/does-devsecops-eliminate-the-segregation-of-duties-between-security-and-devops.html
-- Can DevSecOps and Separation of Duties Coexist? (GovDevSecOps) — https://govdevsecopshub.com/2022/03/02/can-devsecops-and-separation-of-duties-coexist/
-- The Vital Role of Segregation of Duties (CyberArk) — https://www.cyberark.com/resources/blog/the-vital-role-of-segregation-of-duties-in-cybersecurity-and-compliance
+- [Does DevSecOps eliminate the segregation of duties? (CSO Online)](https://www.csoonline.com/article/565700/does-devsecops-eliminate-the-segregation-of-duties-between-security-and-devops.html)
+- [Can DevSecOps and Separation of Duties Coexist? (GovDevSecOps)](https://govdevsecopshub.com/2022/03/02/can-devsecops-and-separation-of-duties-coexist/)
+- [The Vital Role of Segregation of Duties (CyberArk)](https://www.cyberark.com/resources/blog/the-vital-role-of-segregation-of-duties-in-cybersecurity-and-compliance)
 
 **Métricas e método**
 
-- DORA Metrics (Atlassian) — https://www.atlassian.com/devops/frameworks/dora-metrics
-- Using the Four Keys to measure DevOps performance (Google Cloud) — https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance
-- A history of DORA's software delivery metrics — https://dora.dev/insights/dora-metrics-history/
-- SPACE framework (getDX) — https://getdx.com/blog/space-metrics/
-- SPACE Framework Metrics (Jellyfish) — https://jellyfish.co/library/space-framework/
-- SPACE Metrics (Octopus Deploy) — https://octopus.com/devops/metrics/space-framework/
-- A Design Science Research Methodology for IS — https://www.researchgate.net/publication/284503626_A_design_science_research_methodology_for_information_systems_research
-- Artifact Evaluation in IS Design-Science Research (PACIS) — https://aisel.aisnet.org/pacis2014/23/
-- Artifact Evaluation in IS DSR — a Holistic View (PDF) — https://cedric.cnam.fr/fichiers/art_3208.pdf
+- [DORA Metrics (Atlassian)](https://www.atlassian.com/devops/frameworks/dora-metrics)
+- [Using the Four Keys to measure DevOps performance (Google Cloud)](https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance)
+- [A history of DORA's software delivery metrics](https://dora.dev/insights/dora-metrics-history/)
+- [SPACE framework (getDX)](https://getdx.com/blog/space-metrics/)
+- [SPACE Framework Metrics (Jellyfish)](https://jellyfish.co/library/space-framework/)
+- [SPACE Metrics (Octopus Deploy)](https://octopus.com/devops/metrics/space-framework/)
+- [A Design Science Research Methodology for IS](https://www.researchgate.net/publication/284503626_A_design_science_research_methodology_for_information_systems_research)
+- [Artifact Evaluation in IS Design-Science Research (PACIS)](https://aisel.aisnet.org/pacis2014/23/)
+- [Artifact Evaluation in IS DSR — a Holistic View (PDF)](https://cedric.cnam.fr/fichiers/art_3208.pdf)
 
 ---
 

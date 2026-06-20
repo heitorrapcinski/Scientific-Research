@@ -1,4 +1,6 @@
-# Quando o silo vira pessoa: o High-Impact Individual Contributor (HIC) como dissolvente e novo gerador de atrito no paradigma BizDevSecOps
+# HADS: separação de funções humano–agente como caminho para o HIC prosperar no BizDevSecOps
+
+### BizDevSecOps na era do HIC: dissolução de silos, concentração de risco e uma agenda de pesquisa
 
 *Position paper e agenda de pesquisa*
 

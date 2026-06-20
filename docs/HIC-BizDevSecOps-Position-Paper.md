@@ -1,8 +1,8 @@
 # HADS: separação de funções humano–agente como caminho para o HIC prosperar no BizDevSecOps
 
-### High-Impact Individual Contributor: promessa de produtividade, desafio de governança no BizDevSecOps
-
-*Position paper e agenda de pesquisa*
+> *High-Impact Individual Contributor: promessa de produtividade, desafio de governança no BizDevSecOps*
+>
+> *Position paper e agenda de pesquisa*
 
 ---
 

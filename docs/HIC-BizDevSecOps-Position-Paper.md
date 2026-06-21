@@ -87,6 +87,12 @@ Os quatro problemas novos mais relevantes:
 
 A contribuição conceitual é um **deslocamento de eixo**: o BizDevSecOps tratava a separação de funções como uma relação **entre pessoas**; no mundo do HIC, ela precisa ser reconcebida como uma relação **entre o humano e seus agentes de IA**. Em vez de segregar Dev de Sec entre dois funcionários, segrega-se *quem decide/audita* (o HIC) de *quem executa* (o agente), com trilhas e gates automatizados. Chamamos provisoriamente essa ideia de **Separação de Funções Humano–Agente (Human–Agent Duties Separation — HADS)**. É essa hipótese de artefato que o estudo futuro deve construir e testar.
 
+### 3.4 Um efeito colateral: a transformação do papel do líder
+
+Se o atrito inter-silos vinha em boa parte da coordenação — reuniões de alinhamento, handoffs, mediação entre vocabulários diferentes —, então o colapso dos silos no HIC não esvazia apenas as fronteiras técnicas: esvazia também aquilo que a liderança tradicional gerenciava. Quando não há mais handoff entre quatro squads, **o que exatamente o líder coordena?**
+
+A leitura proposta aqui é que o papel migra de *coordenador de equipes em silos* para **arquiteto de guardrails e dono do julgamento de exceção**. Em vez de mediar pessoas, o líder passa a (i) desenhar e validar o sistema de regras embutido nas ferramentas que o HIC usa e (ii) intervir nos casos que escapam ao padrão automatizado. É um deslocamento de natureza gerencial análogo ao deslocamento técnico do HIC: a supervisão deixa de ser social (cultura, ritual) e passa a ser sistêmica (governança embutida). Esse efeito sobre a liderança é uma dimensão pouco explorada na literatura e merece tratamento empírico próprio (ver P-leadership na §5.4).
+
 ---
 
 ## 4. Lacuna de pesquisa
@@ -115,6 +121,8 @@ O encaixe metodológico natural é a **Design Science Research (DSR)**, cujo pro
 
 - *Modelo* (a estrutura): mapa de papéis BizDevSecOps internalizados pelo HIC e a matriz de quais decisões podem ser executadas pelo agente, quais exigem aprovação humana e quais exigem um segundo humano.
 - *Método* (o processo): o fluxo operacional que instancia esse modelo num pipeline real (gates automatizados, trilha de auditoria humano–agente, pontos de *human-in-the-loop*).
+
+O mecanismo concreto de implementação do HADS é o **policy-as-code / guardrails automatizados**: a cola que antes era *social* (cultura, rituais, revisão manual de Sec sobre Dev) passa a ser *embutida no pipeline* (gates de segurança, aprovações programáticas, políticas executáveis). Há aqui uma sutileza que o artefato precisa endereçar: no cenário do HIC, a IA é simultaneamente *quem executa* o trabalho e parte de *quem aplica o controle* — o que torna a independência entre execução e verificação um requisito de design, não um detalhe. O HADS é, nesse sentido, a especificação de **onde** o controle deve ser independente do executor e **quando** o julgamento humano é obrigatório.
 
 Ou seja, **é um novo modelo *e* um novo processo** — e essa dupla entrega é exatamente o que a DSR chama de artefato composto.
 
@@ -155,7 +163,13 @@ Nas condições B e C, mede-se bem-estar e fluxo pelas dimensões do SPACE (surv
 **P5 — O que faz a organização confiar no HIC?** *[qualitativo → quantitativo]*
 Primeiro, entrevistas identificam os fatores que geram ou destroem confiança no HIC (fase quali, que define as variáveis). Depois, um survey em escala testa, por regressão, qual fator mais explica o nível de confiança. *Confirma-se se* a auditabilidade da fronteira humano–agente surge como o preditor mais forte — acima de velocidade, custo ou reputação do indivíduo. É o teste de adoção: mostra que o HADS resolve não só o problema técnico, mas o de aceitação organizacional.
 
-**Síntese do desenho.** P1 mede o que o HIC promete; P2 mede o que ele ameaça; P3 testa se o artefato proposto reconcilia os dois; P4 e P5 verificam se o resultado é sustentável (pessoa) e aceito (organização). A confirmação conjunta de P3, P4 e P5 é o que validaria o caminho proposto.
+**P6 — O guardrail automatizado resolve a fricção ou apenas a adia?** *[misto — auditoria + incidentes]*
+Na condição C, compara-se a fricção *prevista* (gates que bloqueiam no pipeline, em tempo de execução) com a fricção *diferida* (achados de auditoria e incidentes pós-deploy). Mede-se quantos problemas o guardrail detém na hora versus quantos só aparecem depois, em auditoria ou incidente. *Refuta-se a promessa do guardrail se* a maioria dos problemas escapa do gate e reaparece tarde — ou seja, a fricção não foi eliminada, só empurrada para o momento mais caro. É o teste de que policy-as-code substitui a revisão humana de fato, e não apenas na aparência.
+
+**P-leadership — O que acontece com a fricção líder–time?** *[qualitativo]*
+Em organizações com HIC operando cross-silo, compara-se o escopo e a natureza do trabalho de liderança com o do modelo de squads segmentados (entrevistas + análise documental de papéis). *Confirma-se a hipótese da §3.4 se* o papel migra de coordenação de equipes para arquitetura de guardrails e julgamento de exceção, e se a fricção líder–time muda de natureza (de mediação social para curadoria de regras) em vez de simplesmente desaparecer.
+
+**Síntese do desenho.** P1 mede o que o HIC promete; P2 mede o que ele ameaça; P3 testa se o artefato proposto reconcilia os dois; P4 e P5 verificam se o resultado é sustentável (pessoa) e aceito (organização); P6 testa se o mecanismo de controle funciona ou só adia o problema; e P-leadership verifica o efeito sobre o papel gerencial. A confirmação conjunta de P3, P4, P5 e P6 é o que validaria o caminho proposto.
 
 ---
 
